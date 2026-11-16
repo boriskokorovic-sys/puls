@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="bs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Puls – Podrži Puls · Support Puls</title>
+<meta name="description" content="Support Puls, a free app for household bills — voluntary, in 9 languages.">
+<style>
+  :root { --bg: #F2F2F7; --card: #FFFFFF; --text: #111114; --muted: #5C5C63; --line: #E2E2E7; --blue: #0060DF; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #000000; --card: #1C1C1E; --text: #F2F2F7; --muted: #A1A1A8; --line: #2C2C2E; --blue: #4C8DFF; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; -webkit-text-size-adjust: 100%; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+  header { display: flex; align-items: center; gap: 12px; margin: 8px 0 16px; }
+  header svg { flex: none; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0; letter-spacing: -0.02em; }
+  .langs { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 20px; padding: 0; list-style: none; }
+  .langs a { display: inline-block; padding: 6px 12px; border-radius: 16px; background: var(--card); color: var(--blue); text-decoration: none; font-size: 14px; font-weight: 600; }
+  .langs a[aria-current="true"] { background: var(--blue); color: #FFFFFF; }
+  section.lang { display: none; }
+  section.lang.on { display: block; }
+  .card { background: var(--card); border-radius: 16px; padding: 4px 20px 16px; margin: 0 0 12px; }
+  h2 { font-size: 18px; margin: 16px 0 6px; }
+  p, li { color: var(--text); }
+  ul { padding-left: 20px; margin: 6px 0; }
+  .muted { color: var(--muted); font-size: 14px; }
+  a { color: var(--blue); }
+  noscript p { background: var(--card); padding: 12px 16px; border-radius: 12px; }
+  .cta { display: block; margin: 16px 0 8px; padding: 14px 20px; border-radius: 14px; background: var(--blue); color: #FFFFFF; text-align: center; text-decoration: none; font-size: 17px; font-weight: 600; }
+  .cta:active { opacity: .7; }
+  .soon { margin: 16px 0 8px; padding: 14px 20px; border-radius: 14px; background: var(--bg); color: var(--muted); text-align: center; font-weight: 600; }
+  .has-link .soon, .cta { display: none; }
+  .has-link .cta { display: block; }
+  .links { margin: 20px 4px 0; font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main id="page">
+<header>
+  <svg width="40" height="40" viewBox="18 12 64 76" aria-hidden="true"><path d="M30 18h40a4 4 0 0 1 4 4V78l-6 5-6-5-6 5-6-5-6 5-6-5-6 5-6-5V22a4 4 0 0 1 4-4z" fill="#0060DF"/><path d="M30 56H40L44.5 48L50.5 68L57 32L62 56H70" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  <h1 id="title">Puls</h1>
+</header>
+<ul class="langs" id="langs">
+  <li><a href="#bs" lang="bs">Bosanski</a></li>
+  <li><a href="#hr" lang="hr">Hrvatski</a></li>
+  <li><a href="#sr" lang="sr">Српски</a></li>
+  <li><a href="#en" lang="en">English</a></li>
+  <li><a href="#de" lang="de">Deutsch</a></li>
+  <li><a href="#fr" lang="fr">Français</a></li>
+  <li><a href="#es" lang="es">Español</a></li>
+  <li><a href="#pt" lang="pt">Português</a></li>
+  <li><a href="#pl" lang="pl">Polski</a></li>
+</ul>
+
+<!-- ══════════ BOSANSKI ══════════ -->
+<section class="lang" id="bs" lang="bs" data-title="Podrži Puls">
+<div class="card">
+<h2>Ukratko</h2>
+<ul>
+<li>Puls je besplatan i takav ostaje.</li>
+<li>Ako ti pomaže, možeš dobrovoljno podržati njegov razvoj.</li>
+<li>Podrška ništa ne otključava: Puls je isti za sve, s podrškom ili bez nje.</li>
+</ul>
+<a class="cta" href="#" rel="noopener">Podrži Puls</a>
+<p class="soon">Link za podršku stiže uskoro.</p>
+<p class="muted">Plaćanje ide preko platforme za podršku, ne preko Pulsa.</p>
+</div>
+<div class="card">
+<h2>Na šta ide podrška</h2>
+<p>Na vrijeme za razvoj i popravke, testiranje na više telefona i naknade za objavu u trgovinama aplikacija.</p>
+<h2>Tvoji podaci</h2>
+<p>Puls ne zna da li si ga podržao: aplikacija se ne povezuje s platformom i ništa joj ne šalje. Podatke o plaćanju obrađuje platforma, po svojim pravilima; mi vidimo samo ono što ona pokaže, npr. ime ili poruku koju ostaviš.</p>
+<h2>I bez novca</h2>
+<p>Puls možeš podržati i tako da ga <a class="play" href="https://play.google.com/store/apps/details?id=app.puls.racuni" rel="noopener">ocijeniš na Google Playu</a>, javiš grešku ili prijedlog na <a href="mailto:pulsapp.support@gmail.com">pulsapp.support@gmail.com</a> ili ga preporučiš nekome kome bi koristio.</p>
+<p class="muted">Objavljeno: 16. 11. 2026.</p>
+</div>
+<p class="links"><a href="./#bs">Politika privatnosti</a> · <a href="terms.html#bs">Uslovi korištenja</a></p>
+</section>
+
+<!-- ══════════ HRVATSKI ══════════ -->
+<section class="lang" id="hr" lang="hr" data-title="Podrži Puls">
+<div class="card">
+<h2>Ukratko</h2>
+<ul>
+<li>Puls je besplatan i takav ostaje.</li>
+<li>Ako ti pomaže, možeš dobrovoljno podržati njegov razvoj.</li>
+<li>Podrška ništa ne otključava: Puls je isti za sve, s podrškom ili bez nje.</li>
+</ul>
+<a class="cta" href="#" rel="noopener">Podrži Puls</a>
+<p class="soon">Poveznica za podršku stiže uskoro.</p>
+<p class="muted">Plaćanje ide preko platforme za podršku, ne preko Pulsa.</p>
+</div>
+<div class="card">
+<h2>Na što ide podrška</h2>
+<p>Na vrijeme za razvoj i popravke, testiranje na više telefona i naknade za objavu u trgovinama aplikacija.</p>
+<h2>Tvoji podaci</h2>
+<p>Puls ne zna jesi li ga podržao: aplikacija se ne povezuje s platformom i ništa joj ne šalje. Podatke o plaćanju obrađuje platforma, prema svojim pravilima; mi vidimo samo ono što ona prikaže, npr. ime ili poruku koju ostaviš.</p>
+<h2>I bez novca</h2>
+<p>Puls možeš podržati i tako da ga <a class="play" href="https://play.google.com/store/apps/details?id=app.puls.racuni" rel="noopener">ocijeniš na Google Playu</a>, javiš pogrešku ili prijedlog na <a href="mailto:pulsapp.support@gmail.com">pulsapp.support@gmail.com</a> ili ga preporučiš nekome kome bi koristio.</p>
+<p class="muted">Objavljeno: 16. 11. 2026.</p>
+</div>
+<p class="links"><a href="./#hr">Pravila privatnosti</a> · <a href="terms.html#hr">Uvjeti korištenja</a></p>
+</section>
+
+<!-- ══════════ СРПСКИ ══════════ -->
+<section class="lang" id="sr" lang="sr" data-title="Подржи Puls">
+<div class="card">
+<h2>Укратко</h2>
+<ul>
+<li>Puls је бесплатан и такав остаје.</li>
+<li>Ако ти помаже, можеш добровољно да подржиш његов развој.</li>
+<li>Подршка ништа не откључава: Puls је исти за све, са подршком или без ње.</li>
+</ul>
+<a class="cta" href="#" rel="noopener">Подржи Puls</a>
+<p class="soon">Линк за подршку стиже ускоро.</p>
+<p class="muted">Плаћање иде преко платформе за подршку, не преко апликације Puls.</p>
+</div>
+<div class="card">
+<h2>На шта иде подршка</h2>
+<p>На време за развој и поправке, тестирање на више телефона и накнаде за објаву у продавницама апликација.</p>
+<h2>Твоји подаци</h2>
+<p>Puls не зна да ли си га подржао: апликација се не повезује с платформом и ништа јој не шаље. Податке о плаћању обрађује платформа, по својим правилима; ми видимо само оно што она прикаже, нпр. име или поруку коју оставиш.</p>
+<h2>И без новца</h2>
+<p>Puls можеш да подржиш и тако што ћеш га <a class="play" href="https://play.google.com/store/apps/details?id=app.puls.racuni" rel="noopener">оценити на Google Play-у</a>, пријавити грешку или предлог на <a href="mailto:pulsapp.support@gmail.com">pulsapp.support@gmail.com</a> или га препоручити некоме коме би користио.</p>
+<p class="muted">Објављено: 16. 11. 2026.</p>
+</div>
+<p class="links"><a href="./#sr">Политика приватности</a> · <a href="terms.html#sr">Услови коришћења</a></p>
+</section>
+
+<!-- ══════════ ENGLISH ══════════ -->
+<section class="lang" id="en" lang="en" data-title="Support Puls">
+<div class="card">
+<h2>In short</h2>
+<ul>
+<li>Puls is free and will stay free.</li>
+<li>If it helps you, you can support its development — entirely voluntarily.</li>
+<li>Support unlocks nothing: Puls is the same for everyone, with or without it.</li>
+</ul>
+<a class="cta" href="#" rel="noopener">Support Puls</a>
+<p class="soon">The support link is coming soon.</p>
+<p class="muted">Payment goes through the support platform, not through Puls.</p>
+</div>
+<div class="card">
+<h2>What support pays for</h2>
+<p>Time for new features and fixes, testing on more phones, and app store publishing fees.</p>
+<h2>Your data</h2>
+<p>Puls doesn’t know whether you supported it: the app doesn’t connect to the platform and sends it nothing. The platform handles the payment details under its own terms; we only see what it shows us, such as a name or a message you leave.</p>
+<h2>Without money</h2>
+<p>You can also support Puls by <a class="play" href="https://play.google.com/store/apps/details?id=app.puls.racuni" rel="noopener">rating it on Google Play</a>, sending a bug or an idea to <a href="mailto:pulsapp.support@gmail.com">pulsapp.support@gmail.com</a>, or recommending it to someone who’d find it useful.</p>
+<p class="muted">Published: 16 November 2026.</p>
+</div>
+<p class="links"><a href="./#en">Privacy Policy</a> · <a href="terms.html#en">Terms of Use</a></p>
+</section>
+
+<!-- ══════════ DEUTSCH ══════════ -->
+<section class="lang" id="de" lang="de" data-title="Puls unterstützen">
+<div class="card">
+<h2>Kurz gesagt</h2>
+<ul>
+<li>Puls ist kostenlos und bleibt es.</li>
+<li>Wenn dir Puls hilft, kannst du seine Entwicklung freiwillig unterstützen.</li>
+<li>Unterstützung schaltet nichts frei: Puls ist für alle gleich, mit oder ohne.</li>
+</ul>
+<a class="cta" href="#" rel="noopener">Puls unterstützen</a>
+<p class="soon">Der Link zur Unterstützung folgt in Kürze.</p>
+<p class="muted">Die Zahlung läuft über die Unterstützungsplattform, nicht über Puls.</p>
+</div>
+<div class="card">
+<h2>Wofür die Unterstützung ist</h2>
+<p>Für Zeit für Entwicklung und Fehlerbehebung, Tests auf mehr Handys und die Gebühren der App-Stores.</p>
+<h2>Deine Daten</h2>
+<p>Puls weiß nicht, ob du es unterstützt hast: Die App verbindet sich nicht mit der Plattform und sendet ihr nichts. Die Zahlungsdaten verarbeitet die Plattform nach ihren eigenen Regeln; wir sehen nur, was sie uns zeigt, etwa einen Namen oder eine Nachricht, die du hinterlässt.</p>
+<h2>Auch ohne Geld</h2>
+<p>Du kannst Puls auch unterstützen, indem du es <a class="play" href="https://play.google.com/store/apps/details?id=app.puls.racuni" rel="noopener">bei Google Play bewertest</a>, Fehler oder Ideen an <a href="mailto:pulsapp.support@gmail.com">pulsapp.support@gmail.com</a> meldest oder es jemandem empfiehlst, dem es nützen würde.</p>
+<p class="muted">Veröffentlicht: 16.11.2026.</p>
+</div>
+<p class="links"><a href="./#de">Datenschutzerklärung</a> · <a href="terms.html#de">Nutzungsbedingungen</a></p>
+</section>
+
+<!-- ══════════ FRANÇAIS ══════════ -->
+<section class="lang" id="fr" lang="fr" data-title="Soutenir Puls">
+<div class="card">
+<h2>En bref</h2>
+<ul>
+<li>Puls est gratuit et le restera.</li>
+<li>S’il t’est utile, tu peux soutenir son développement, librement.</li>
+<li>Le soutien ne débloque rien : Puls est le même pour tous, avec ou sans.</li>
+</ul>
+<a class="cta" href="#" rel="noopener">Soutenir Puls</a>
+<p class="soon">Le lien de soutien arrive bientôt.</p>
+<p class="muted">Le paiement passe par la plateforme de soutien, pas par Puls.</p>
+</div>
+<div class="card">
+<h2>À quoi sert le soutien</h2>
+<p>Au temps de développement et de correction, aux tests sur davantage de téléphones et aux frais de publication dans les boutiques d’applications.</p>
+<h2>Tes données</h2>
+<p>Puls ne sait pas si tu l’as soutenu : l’application ne se connecte pas à la plateforme et ne lui envoie rien. La plateforme traite les données de paiement selon ses propres règles ; nous ne voyons que ce qu’elle nous montre, par exemple un nom ou un message que tu laisses.</p>
+<h2>Sans argent aussi</h2>
+<p>Tu peux aussi soutenir Puls en <a class="play" href="https://play.google.com/store/apps/details?id=app.puls.racuni" rel="noopener">le notant sur Google Play</a>, en signalant un bug ou une idée à <a href="mailto:pulsapp.support@gmail.com">pulsapp.support@gmail.com</a>, ou en le recommandant à quelqu’un à qui il serait utile.</p>
+<p class="muted">Publié le 16/11/2026.</p>
+</div>
+<p class="links"><a href="./#fr">Politique de confidentialité</a> · <a href="terms.html#fr">Conditions d’utilisation</a></p>
+</section>
+
+<!-- ══════════ ESPAÑOL ══════════ -->
+<section class="lang" id="es" lang="es" data-title="Apoyar Puls">
+<div class="card">
+<h2>En resumen</h2>
+<ul>
+<li>Puls es gratis y lo seguirá siendo.</li>
+<li>Si te resulta útil, puedes apoyar su desarrollo de forma voluntaria.</li>
+<li>El apoyo no desbloquea nada: Puls es igual para todos, con apoyo o sin él.</li>
+</ul>
+<a class="cta" href="#" rel="noopener">Apoyar Puls</a>
+<p class="soon">El enlace de apoyo llegará pronto.</p>
+<p class="muted">El pago se hace a través de la plataforma de apoyo, no a través de Puls.</p>
+</div>
+<div class="card">
+<h2>A qué se destina el apoyo</h2>
+<p>A tiempo de desarrollo y correcciones, pruebas en más móviles y las tarifas de publicación en las tiendas de aplicaciones.</p>
+<h2>Tus datos</h2>
+<p>Puls no sabe si lo has apoyado: la aplicación no se conecta con la plataforma ni le envía nada. La plataforma trata los datos de pago según sus propias normas; solo vemos lo que nos muestra, como un nombre o un mensaje que dejes.</p>
+<h2>También sin dinero</h2>
+<p>También puedes apoyar Puls <a class="play" href="https://play.google.com/store/apps/details?id=app.puls.racuni" rel="noopener">valorándolo en Google Play</a>, enviando un error o una idea a <a href="mailto:pulsapp.support@gmail.com">pulsapp.support@gmail.com</a> o recomendándolo a alguien a quien le sea útil.</p>
+<p class="muted">Publicado: 16/11/2026.</p>
+</div>
+<p class="links"><a href="./#es">Política de privacidad</a> · <a href="terms.html#es">Condiciones de uso</a></p>
+</section>
+
+<!-- ══════════ PORTUGUÊS ══════════ -->
+<section class="lang" id="pt" lang="pt" data-title="Apoiar o Puls">
+<div class="card">
+<h2>Em resumo</h2>
+<ul>
+<li>O Puls é gratuito e vai continuar a sê-lo.</li>
+<li>Se te é útil, podes apoiar o seu desenvolvimento, de forma voluntária.</li>
+<li>O apoio não desbloqueia nada: o Puls é igual para todos, com ou sem apoio.</li>
+</ul>
+<a class="cta" href="#" rel="noopener">Apoiar o Puls</a>
+<p class="soon">A ligação de apoio chega em breve.</p>
+<p class="muted">O pagamento é feito através da plataforma de apoio, não através do Puls.</p>
+</div>
+<div class="card">
+<h2>Para que serve o apoio</h2>
+<p>Para tempo de desenvolvimento e correções, testes em mais telemóveis e as taxas de publicação nas lojas de aplicações.</p>
+<h2>Os teus dados</h2>
+<p>O Puls não sabe se o apoiaste: a aplicação não se liga à plataforma nem lhe envia nada. A plataforma trata os dados de pagamento segundo as suas próprias regras; só vemos o que ela nos mostra, como um nome ou uma mensagem que deixes.</p>
+<h2>Também sem dinheiro</h2>
+<p>Também podes apoiar o Puls <a class="play" href="https://play.google.com/store/apps/details?id=app.puls.racuni" rel="noopener">avaliando-o no Google Play</a>, enviando um erro ou uma ideia para <a href="mailto:pulsapp.support@gmail.com">pulsapp.support@gmail.com</a> ou recomendando-o a alguém a quem seja útil.</p>
+<p class="muted">Publicado: 16/11/2026.</p>
+</div>
+<p class="links"><a href="./#pt">Política de privacidade</a> · <a href="terms.html#pt">Termos de utilização</a></p>
+</section>
+
+<!-- ══════════ POLSKI ══════════ -->
+<section class="lang" id="pl" lang="pl" data-title="Wesprzyj Puls">
+<div class="card">
+<h2>W skrócie</h2>
+<ul>
+<li>Puls jest bezpłatny i taki pozostanie.</li>
+<li>Jeśli ci pomaga, możesz dobrowolnie wesprzeć jego rozwój.</li>
+<li>Wsparcie niczego nie odblokowuje: Puls jest taki sam dla wszystkich, ze wsparciem czy bez.</li>
+</ul>
+<a class="cta" href="#" rel="noopener">Wesprzyj Puls</a>
+<p class="soon">Link do wsparcia pojawi się wkrótce.</p>
+<p class="muted">Płatność odbywa się przez platformę wsparcia, nie przez Puls.</p>
+</div>
+<div class="card">
+<h2>Na co idzie wsparcie</h2>
+<p>Na czas na rozwój i poprawki, testy na większej liczbie telefonów i opłaty za publikację w sklepach z aplikacjami.</p>
+<h2>Twoje dane</h2>
+<p>Puls nie wie, czy go wsparłeś: aplikacja nie łączy się z platformą i niczego jej nie wysyła. Dane płatności przetwarza platforma według własnych zasad; widzimy tylko to, co nam pokaże, np. imię lub wiadomość, którą zostawisz.</p>
+<h2>Także bez pieniędzy</h2>
+<p>Możesz też wesprzeć Puls, <a class="play" href="https://play.google.com/store/apps/details?id=app.puls.racuni" rel="noopener">oceniając go w Google Play</a>, zgłaszając błąd lub pomysł na <a href="mailto:pulsapp.support@gmail.com">pulsapp.support@gmail.com</a> albo polecając go komuś, komu się przyda.</p>
+<p class="muted">Opublikowano: 16.11.2026.</p>
+</div>
+<p class="links"><a href="./#pl">Polityka prywatności</a> · <a href="terms.html#pl">Warunki korzystania</a></p>
+</section>
+
+</main>
+<noscript><style>section.lang { display: block; }</style></noscript>
+<script>
+(function () {
+  // ── The one line to fill in: the address of the support page (Ko-fi, Buy Me a Coffee, …). While it is empty the
+  // page says that the link is coming soon, and shows no button. ──
+  var SUPPORT_URL = '';
+
+  var langs = ['bs', 'hr', 'sr', 'en', 'de', 'fr', 'es', 'pt', 'pl'];
+  if (/^https:\/\/[^\s"'<>]+$/.test(SUPPORT_URL)) {
+    document.getElementById('page').className = 'has-link';
+    Array.prototype.forEach.call(document.querySelectorAll('a.cta'), function (a) { a.href = SUPPORT_URL; });
+  }
+  function pick() {
+    var h = (location.hash || '').slice(1).toLowerCase();
+    if (langs.indexOf(h) >= 0) return h;
+    var nav = (navigator.languages || [navigator.language || 'en']).map(function (l) { return String(l).slice(0, 2).toLowerCase(); });
+    for (var i = 0; i < nav.length; i++) if (langs.indexOf(nav[i]) >= 0) return nav[i];
+    return 'en';
+  }
+  function show() {
+    var l = pick();
+    langs.forEach(function (x) {
+      var s = document.getElementById(x);
+      s.className = 'lang' + (x === l ? ' on' : '');
+    });
+    var on = document.getElementById(l);
+    document.documentElement.lang = l;
+    document.getElementById('title').textContent = on.getAttribute('data-title');
+    document.title = 'Puls · ' + on.getAttribute('data-title');
+    Array.prototype.forEach.call(document.querySelectorAll('#langs a'), function (a) {
+      a.setAttribute('aria-current', a.getAttribute('href') === '#' + l ? 'true' : 'false');
+    });
+  }
+  // The language chips are links to #xx; keep the page at the top instead of jumping to the section.
+  window.addEventListener('hashchange', function () { show(); window.scrollTo(0, 0); });
+  show();
+  window.addEventListener('load', function () { window.scrollTo(0, 0); });
+})();
+</script>
+</body>
+</html>
